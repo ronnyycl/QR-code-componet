@@ -1,0 +1,58 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light_gray: hsl(212, 45%, 89%);
+    --Grayish_blue: hsl(220, 15%, 55%);
+    --Dark_blue: hsl(218, 44%, 22%);
+}
+
+/** GLOBAL STYLES **/
+
+html {
+    box-sizing: border-box;
+    line-height: 1.22;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: var(--Light_gray);
+}
+h1 {
+    font-size: 1.5em;
+}
+a {
+    text-decoration: none;
+}
+p {
+    color: var(--Grayish_blue);
+}
+img {
+    width: 100%;
+}
+
+/** Container **/
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: var(--White);
+    margin:  0px 23px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.container img {
+    border-radius: 15px;
+}
+
+
+
+
+
